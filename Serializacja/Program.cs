@@ -10,7 +10,13 @@ namespace Serializacja
     {
         static void Main(string[] args)
         {
-            BinarySerializer.Create();
+            //BinarySerializer.Create();
+            // SoapSerializer.Create();
+            //XMLSerializer.Create();
+            //JsonSerializer1.Create();
+            //JsonSerializer1.ApplyJson();
+            JsonSerializer1.NBP ();
         }
+
     }
 }
